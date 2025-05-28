@@ -1,176 +1,246 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- Public Sans -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Chivo -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,100..900;1,100..900&family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Normalize style -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+      integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Reset CSS -->
+    <link rel="stylesheet" href="./css/reset.css" />
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/customers.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Document</title>
-  <!-- Public Sans -->
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap"
-    rel="stylesheet" />
-  <!-- Chivo -->
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,100..900;1,100..900&family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap"
-    rel="stylesheet" />
-  <!-- Normalize style -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
-    integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <!-- Reset CSS -->
-  <link rel="stylesheet" href="./css/reset.css" />
-  <!-- CSS -->
-  <link rel="stylesheet" href="./css/customers.css" />
-</head>
-
-<body>
-  <section id="customers" class="customers">
-    <h5 class="custumers-title">What Our Customers Say</h5>
-    <p class="customers-text">
-      We’re proud to grow a community that values health, sustainability, and
-      real flavor. Read what our happy customers have to say about their
-      experience with our organic products.
-    </p>
-    <ul class="customers-list">
-      <li class="customers-item">
-        <ul class="customers-stars">
-          <li>
-            <img src="./image/star.webp" alt="" class="customers-star" />
-          </li>
-          <li>
-            <img src="./image/star.webp" alt="" class="customers-star" />
-          </li>
-          <li>
-            <img src="./image/star.webp" alt="" class="customers-star" />
-          </li>
-          <li>
-            <img src="./image/star.webp" alt="" class="customers-star" />
-          </li>
-
-          <img src="./image/star.webp" alt="" class="customers-star" />
-      </li>
-    </ul>
-    <p>
-      Their eco-friendly packaging is a big plus for me. Highly recommend!
-    </p>
-    <img src="./image/tony.webp" alt="" class="customers-png" />
-    <p>Tony Lee</p>
-    </li>
-
-    <li class="customers-item">
-      <ul class="customers-starlist">
-
-        <li class="customers-starlist-item">
-          <img src="./image/star.webp" alt="" class="custumers-star"/>
-        </li>
-        <li class="customers-starlist-item">
-          <img src="./image/star.webp" alt="" class="custumers-star"/>
-        </li>
-        <li class="customers-starlist-item">
-          <img src="./image/star.webp" alt="" class="custumers-star"/>
-        </li>
-        <li class="customers-starlist-item">
-          <img src="./image/star.webp" alt="" class="custumers-star"/>
-        </li>
-        <li class="customers-starlist-item">
-          <img src="./image/empty-star.webp" alt="" class="custumers-star"/>
-        </li>
-    </li>
-    </ul>
-    <p>
-      "I absolutely love the variety of organic produce available here.
-      Everything is fresh and bursting with flavor!"
-    </p>
-    <img src="./image/emili.webp" alt="" />
-    <p>Emily Johnson</p>
-    </li>
-    <li class="customers-item">
-      <ul class="customers-stars">
-        <li>
-          <img src="./image/star.webp" alt="" /><img src="./image/star.webp" alt="" /><img src="./image/star.webp"
-            alt="" /><img src="./image/star.webp" alt="" />
-          <img src="./image/star.webp" alt="" />
-        </li>
-      </ul>
-      <p>
-        "The staff is incredibly knowledgeable and always willing to help me
-        find what I need. Great service!"
+  <body>
+    <section id="customers" class="customers">
+      <h5 class="custumers-title">What Our Customers Say</h5>
+      <p class="customers-text">
+        We’re proud to grow a community that values health, sustainability, and
+        real flavor. Read what our happy customers have to say about their
+        experience with our organic products.
       </p>
-      <img src="./image/michael.webp" alt="" />
-      <p>Michael Smith</p>
-    </li>
-    <li class="customers-item">
-      <ul class="customers-stars">
-        <li>
-          <img src="./image/star.webp" alt="" /><img src="./image/star.webp" alt="" /><img src="./image/star.webp"
-            alt="" />
-          <img src="./image/empty-star.webp" alt="" />
-          <img src="./image/empty-star.webp" alt="" />
+      <ul class="customers-list">
+        <li class="customers-item">
+          <ul class="customers-list-people">
+            <li class="custumers-list">
+              <img src="./image/star.webp" alt="" />
+            </li>
+            <li class="custumers-list">
+              <img src="./image/star.webp" alt="" />
+            </li>
+            <li class="custumers-list">
+              <img src="./image/star.webp" alt="" />
+            </li>
+            <li class="custumers-list">
+              <img src="./image/star.webp" alt="" />
+            </li>
+            <li class="custumers-list">
+              <img src="./image/star.webp" alt="" />
+            </li>
+          </ul>
+          <p class="customers-text">
+            Their eco-friendly packaging is a big plus for me. Highly recommend!
+          </p>
+          <img src="./image/tony.webp" alt="" class="customers-photo" />
+          <p class="customers-text">Tony Lee</p>
+        </li>
+        <li class="customers-item">
+          <ul class="customers-starlist">
+            <li class="customers-starlist-item">
+              <img src="./image/star.webp" alt="" class="custumers-star" />
+            </li>
+            <li class="customers-starlist-item">
+              <img src="./image/star.webp" alt="" class="custumers-star" />
+            </li>
+            <li class="customers-starlist-item">
+              <img src="./image/star.webp" alt="" class="custumers-star" />
+            </li>
+            <li class="customers-starlist-item">
+              <img src="./image/star.webp" alt="" class="custumers-star" />
+            </li>
+            <li class="customers-starlist-item">
+              <img src="./image/star.webp" alt="" class="custumers-star" />
+            </li>
+          </ul>
+          <p class="customers-text">
+            "I absolutely love the variety of organic produce available here.
+            Everything is fresh and bursting with flavor!"
+          </p>
+          <img src="./image/emili.webp" alt="" class="customers-photo" />
+          <p class="customers-text">Emily Johnson</p>
+        </li>
+        <li class="customers-item">
+          <ul class="customers-stars">
+            <li class="customers-star">
+              <img src="./image/star.webp" alt="" />
+            </li>
+            <li class="customers-star">
+              <img src="./image/star.webp" alt="" />
+            </li>
+            <li class="customers-star">
+              <img src="./image/star.webp" alt="" />
+            </li>
+            <li class="customers-star">
+              <img src="./image/star.webp" alt="" />
+            </li>
+            <li class="customers-star">
+              <img src="./image/empty-star.webp" alt="" />
+            </li>
+          </ul>
+          <p class="customers-text">
+            "The staff is incredibly knowledgeable and always willing to help me
+            find what I need. Great service!"
+          </p>
+          <img src="./image/michael.webp" alt="" class="customers-photo" />
+          <p class="customers-text">Michael Smith</p>
+        </li>
+        <li class="customers-item">
+          <ul class="customers-stars">
+            <li class="customers-item">
+              <img src="./image/star.webp" alt="" />
+            </li>
+            <li class="customers-item">
+              <img src="./image/star.webp" alt="" />
+            </li>
+            <li class="customers-item">
+              <img src="./image/star.webp" alt="" />
+            </li>
+            <li class="customers-item">
+              <img src="./image/star.webp" alt="" />
+            </li>
+            <li class="customers-item">
+              <img src="./image/star.webp" alt="" />
+            </li>
+          </ul>
+          <p class="customers-text">
+            "I've noticed a significant improvement in my health since switching
+            to their organic products. Highly recommend!"
+          </p>
+          <img src="./image/sarah.webp" alt="" class="customers-photo" />
+          <p class="customers-text">Sarah Davis</p>
+        </li>
+        <li class="customers-item">
+          <ul class="customers-stars">
+            <li class="customers-item">
+              <img src="./image/star.webp" alt="" />
+            </li>
+            <li class="customers-item">
+              <img src="./image/star.webp" alt="" />
+            </li>
+            <li class="customers-item">
+              <img src="./image/star.webp" alt="" />
+            </li>
+            <li class="customers-item">
+              <img src="./image/empty-star.webp" alt="" />
+            </li>
+            <li class="customers-item">
+              <img src="./image/empty-star.webp" alt="" />
+            </li>
+          </ul>
+          <p class="customers-text">
+            "The range of organic snacks is fantastic! Perfect for my kids, who
+            love them and I feel good about giving them healthy options."
+          </p>
+          <img src="./image/david.webp" alt="" class="customers-photo" />
+          <p class="customers-text">David Brown</p>
+        </li>
+        <li class="customers-item">
+          <ul class="customers-stars">
+            <li class="customers-item">
+              <img src="./image/star.webp" alt="" />
+            </li>
+            <li class="customers-item">
+              <img src="./image/star.webp" alt="" />
+            </li>
+            <li class="customers-item">
+              <img src="./image/star.webp" alt="" />
+            </li>
+            <li class="customers-item">
+              <img src="./image/star.webp" alt="" />
+            </li>
+            <li class="customers-item">
+              <img src="./image/empty-star.webp" alt="" />
+            </li>
+          </ul>
+          <p class="customers-text">
+            "I appreciate that they source local ingredients. It makes me feel
+            connected to the community!"
+          </p>
+          <img src="./image/jesikka.webp" alt="" class="customers-photo" />
+          <p class="customers-text">Jessica Wilson</p>
+        </li>
+        <li class="customers-item">
+          <ul class="customers-stars">
+            <li class="customers-item">
+              <img src="./image/star.webp" alt="" />
+            </li>
+            <li class="customers-item">
+              <img src="./image/star.webp" alt="" />
+            </li>
+            <li class="customers-item">
+              <img src="./image/star.webp" alt="" />
+            </li>
+            <li class="customers-item">
+              <img src="./image/empty-star.webp" alt="" />
+            </li>
+            <li class="customers-item">
+              <img src="./image/empty-star.webp" alt="" />
+            </li>
+          </ul>
+          <p class="customers-text">
+            "The prices are fair for the quality of food. I never feel guilty
+            about spending a little more here."
+          </p>
+          <img src="./image/andrew.webp" alt="" class="customers-photo" />
+          <p class="customers-text">Andrew Lee</p>
+        </li>
+        <li class="customers-item">
+          <ul class="customers-stars">
+            <li class="customers-item">
+              <img src="./image/star.webp" alt="" />
+            </li>
+            <li class="customers-item">
+              <img src="./image/star.webp" alt="" />
+            </li>
+            <li class="customers-item">
+              <img src="./image/empty-star.webp" alt="" />
+            </li>
+            <li class="customers-item">
+              <img src="./image/empty-star.webp" alt="" />
+            </li>
+            <li class="customers-item">
+              <img src="./image/empty-star.webp" alt="" />
+            </li>
+          </ul>
+          <p class="customers-text">
+            "Their eco-friendly packaging is a big plus for me. It's nice to
+            support a business that cares about the environment!"
+          </p>
+          <img src="./image/laura.webp" alt="" class="customers-photo" />
+          <p class="customers-text">Laura Kim</p>
         </li>
       </ul>
-      <p>"I've noticed a significant improvement in my health since switching to their organic products. Highly
-        recommend!"</p>
-      <img src="./image/sarah.webp" alt="">
-      <p>Sarah Davis</p>
-    </li>
-    <li class="customers-item">
-      <ul class="customers-stars">
-        <li>
-          <img src="./image/star.webp" alt="" /><img src="./image/star.webp" alt="" /><img src="./image/star.webp"
-            alt="" /><img src="./image/star.webp" alt="" />
-          <img src="./image/empty-star.webp" alt="" />
-        </li>
-      </ul>
-      <p>"The range of organic snacks is fantastic! Perfect for my kids, who love them and I feel good about giving
-        them healthy options."</p>
-      <img src="./image/david.webp" alt="">
-      <p></p>
-    </li>
-    <li class="customers-item">
-      <ul class="customers-stars">
-        <li>
-          <img src="./image/star.webp" alt="" /><img src="./image/star.webp" alt="" /><img src="./image/star.webp"
-            alt="" />
-          <img src="./image/empty-star.webp" alt="" />
-          <img src="./image/empty-star.webp" alt="" />
-        </li>
-      </ul>
-      <p>"I appreciate that they source local ingredients. It makes me feel connected to the community!"</p>
-      <img src="./image/jesikka.webp" alt="">
-      <p>Jessica Wilson</p>
-    </li>
-    <li class="customers-item">
-      <ul class="customers-stars">
-        <li>
-          <img src="./image/star.webp" alt="" /><img src="./image/star.webp" alt="" />
-          <img src="./image/empty-star.webp" alt="" />
-          <img src="./image/empty-star.webp" alt="" />
-          <img src="./image/empty-star.webp" alt="" />
-        </li>
-      </ul>
-      <p>"The prices are fair for the quality of food. I never feel guilty about spending a little more here."</p>
-      <img src="./image/andrew.webp" alt="">
-      <p>Andrew Lee</p>
-    </li>
-    <li class="customers-item">
-      <ul class="customers-stars">
-        <li>
-          <img src="./image/star.webp" alt="" /><img src="./image/star.webp" alt="" />
-          <img src="./image/empty-star.webp" alt="" />
-          <img src="./image/empty-star.webp" alt="" />
-          <img src="./image/empty-star.webp" alt="" />
-        </li>
-      </ul>
-      <p>"Their eco-friendly packaging is a big plus for me. It's nice to support a business that cares about the
-        environment!"</p>
-      <img src="./image/laura.webp" alt="">
-      <p>Laura Kim</p>
-    </li>
-    </ul>
-  </section>
-</body>
-
+    </section>
+  </body>
 </html>
