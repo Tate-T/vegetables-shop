@@ -74,7 +74,7 @@
 
 .choose-item:nth-child(1)::before {
     content: "";
-    background-image: url(./src/partials/image/health.webp);
+    background-image: url("../image/health.webp");
 }
 
 .choose-list-title {
