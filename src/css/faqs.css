@@ -1,23 +1,27 @@
 .container {
     width: 1312px;
-
   margin-left: auto;
   margin-right: auto;
-
 }
 
 .faqs {
 background: #5E8A4D;
   padding-top: 112px;
   padding-bottom: 112px;
+  
 
 }
 .faqs-box {
 margin-right: 24px;
+
 }
+.faqs-section {
+    display: flex;
+}
+
 .faqs-content {
     display: flex;
-    padding-bottom: 24px;
+   align-items: center;
 }
 
 .faqs-list-text {
@@ -26,6 +30,11 @@ flex-direction: column;
 
 
 }
+.faqs-button {
+    margin-left: 24px;
+    
+}
+
 .faqs-list {
 border-bottom: solid rgba(255, 255, 255, 0.20);
 padding-bottom: 24px;
