@@ -65,16 +65,33 @@
 
 .choose-item::before {
     background-size: 48px 48px;
+    width: 310px;
+    height: 48px;
     display: block;
     background-repeat: no-repeat;
-    background-color: #F5F4FA;
     background-position: left;
-    margin-bottom: 30px;
+    margin-bottom: 16px;
 }
 
 .choose-item:nth-child(1)::before {
     content: "";
     background-image: url("../image/health.webp");
+}
+
+.choose-item:nth-child(2)::before {
+    content: "";
+    background-image: url("../image/basketball.webp");
+}
+
+.choose-item:nth-child(3)::before {
+    content: "";
+    background-image: url("../image/restaurant.webp");
+
+}
+
+.choose-item:nth-child(4)::before {
+    content: "";
+    background-image: url("../image/cheese.webp");
 }
 
 .choose-list-title {
