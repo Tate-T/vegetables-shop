@@ -1,0 +1,75 @@
+body {
+    background: #5c9c5a;
+    font-family: 'Public Sans', 'Chivo', sans-serif;
+}
+
+.mission-section {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 40px 0 0 0;
+    gap: 16px;
+}
+
+.mission-text {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    gap: 40px;
+}
+
+.mission-left {
+    background: transparent;
+    padding: 24px 32px;
+    color: #fff;
+    width: 50%;
+    box-sizing: border-box;
+}
+
+.mission-right {
+    font-family: 'Public Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.5;
+    letter-spacing: 0;
+
+}
+
+.mission-heading {
+    font-family: 'Public Sans', sans-serif;
+    font-weight: 600;
+    margin: 0;
+    color: #fff;
+    line-height: 1.2;
+}
+
+.mission-description {
+    margin: 0;
+    color: #fff;
+    line-height: 1.5;
+    width: 644px;
+    height: 108px;
+    font-family: 'Public Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    letter-spacing: 0;
+    margin-bottom: 66px;
+    margin-left: auto;
+}
+
+
+
+.image-container {
+    margin-top: 32px;
+    padding: 0;
+}
+
+.image-container figure {
+    margin: 0;
+}
+
+.image-container img {
+    width: 100%;
+    display: block;
+    border-radius: 0;
+}
