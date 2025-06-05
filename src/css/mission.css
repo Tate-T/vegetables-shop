@@ -1,0 +1,54 @@
+.container {
+    width: 1312px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mission {
+    background: #5c9c5a;
+    padding-top: 112px;
+    padding-bottom: 112px;
+}
+
+.mission-text {
+    display: flex;
+
+
+    /* width: 100%; */
+}
+
+.mission-heading {
+    /* Heading/Desktop/H2 */
+    font-family: Chivo;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+    /* 57.6px */
+    letter-spacing: -0.48px;
+    align-self: stretch;
+    color: #FFFFFF;
+}
+
+.mission-description {
+    color: #fff;
+    /* Text/Medium/Normal */
+    font-family: "Public Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 27px */
+    align-self: stretch;
+    margin-left: 24px;
+    margin-bottom: 66px;
+}
+
+
+
+.mission-image {
+    margin-top: 80px;
+    height: 738px;
+    align-self: stretch;
+    aspect-ratio: 16/9;
+}
