@@ -1,75 +1,54 @@
-body {
-    background: #5c9c5a;
-    font-family: 'Public Sans', 'Chivo', sans-serif;
+.container {
+    width: 1312px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.mission-section {
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    padding: 40px 0 0 0;
-    gap: 16px;
+.mission {
+    background: #5c9c5a;
+    padding-top: 112px;
+    padding-bottom: 112px;
 }
 
 .mission-text {
     display: flex;
-    justify-content: space-between;
-    width: 100%;
-    gap: 40px;
-}
 
-.mission-left {
-    background: transparent;
-    padding: 24px 32px;
-    color: #fff;
-    width: 50%;
-    box-sizing: border-box;
-}
 
-.mission-right {
-    font-family: 'Public Sans', sans-serif;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 1.5;
-    letter-spacing: 0;
-
+    /* width: 100%; */
 }
 
 .mission-heading {
-    font-family: 'Public Sans', sans-serif;
-    font-weight: 600;
-    margin: 0;
-    color: #fff;
-    line-height: 1.2;
+    /* Heading/Desktop/H2 */
+    font-family: Chivo;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+    /* 57.6px */
+    letter-spacing: -0.48px;
+    align-self: stretch;
+    color: #FFFFFF;
 }
 
 .mission-description {
-    margin: 0;
     color: #fff;
-    line-height: 1.5;
-    width: 644px;
-    height: 108px;
-    font-family: 'Public Sans', sans-serif;
-    font-weight: 400;
+    /* Text/Medium/Normal */
+    font-family: "Public Sans";
     font-size: 18px;
-    letter-spacing: 0;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 27px */
+    align-self: stretch;
+    margin-left: 24px;
     margin-bottom: 66px;
-    margin-left: auto;
 }
 
 
 
-.image-container {
-    margin-top: 32px;
-    padding: 0;
-}
-
-.image-container figure {
-    margin: 0;
-}
-
-.image-container img {
-    width: 100%;
-    display: block;
-    border-radius: 0;
+.mission-image {
+    margin-top: 80px;
+    height: 738px;
+    align-self: stretch;
+    aspect-ratio: 16/9;
 }
