@@ -1,0 +1,168 @@
+/* touch */
+.container {
+  display: flex;
+  margin-right: 64px;
+  margin-left: 64px;
+  margin-top: 112px;
+  margin-bottom: 112px;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.touch {
+  display: flex;
+}
+
+.touch-contacts {
+  color: var(--Color-Scheme-2-Text, #010400);
+
+  /* Heading/Desktop/Tagline */
+  font-family: "Public Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%; /* 24px */
+  margin-bottom: 16px;
+  margin-top: 0px;
+}
+
+.touch-subtitle {
+  align-self: stretch;
+  color: #010400;
+
+  /* Heading/Desktop/H2 */
+  font-family: Chivo;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%; /* 57.6px */
+  letter-spacing: -0.48px;
+  margin-top: 0px;
+  margin-bottom: 24px;
+}
+
+.touch-subtitle3 {
+  color: var(--Color-Scheme-2-Text, #010400);
+
+  /* Text/Medium/Normal */
+  font-family: "Public Sans";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 27px */
+  margin-top: 0px;
+  margin-bottom: 32px;
+}
+
+.touch-list {
+  display: flex;
+  padding: 8px 0px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  list-style: none;
+  margin: 0;
+  margin-bottom: 32px;
+}
+
+.touch-email,
+.touch-phone {
+  position: relative;
+  padding-left: 28px; /* простір для іконки */
+  color: var(--Color-Scheme-4-Text, #010400);
+  font-family: "Public Sans", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 24px */
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  text-decoration-skip-ink: none;
+  text-decoration-thickness: auto;
+  text-underline-offset: auto;
+  text-underline-position: from-font;
+}
+
+.touch-email::before,
+.touch-phone::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 4px;
+  width: 20px;
+  height: 20px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.touch-email::before {
+  background-image: url("../image/envelope.webp");
+}
+
+.touch-phone::before {
+  background-image: url("../image/phone.webp");
+}
+
+.touch-submit {
+  display: flex;
+  width: 198px;
+  padding: 6px 12px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border-radius: 6px;
+  border: 1px solid #1a5901;
+  background: #1a5901;
+  color: white;
+}
+
+.touch-label_name {
+  align-self: stretch;
+  color: var(--Color-Scheme-2-Text, #010400);
+
+  /* Text/Regular/Normal */
+  font-family: "Public Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 24px */
+  flex: 1 0 0;
+}
+
+.touch-input_name {
+  border: none;
+  border-bottom: 1px solid rgba(1, 4, 0, 0.15);
+  background: rgba(255, 255, 255, 0);
+  margin-bottom: 24px;
+}
+
+.touch-label_email {
+  color: var(--Color-Scheme-2-Text, #010400);
+
+  /* Text/Regular/Normal */
+  font-family: "Public Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 24px */
+}
+
+.touch-input_email {
+  border: none;
+  border-bottom: 1px solid rgba(1, 4, 0, 0.15);
+  background: rgba(255, 255, 255, 0);
+  margin-bottom: 24px;
+}
+
+.touch-input_message {
+  height: 166.243px;
+  padding: 12px;
+  border: 1px solid rgba(1, 4, 0, 0.15);
+  background: rgba(255, 255, 255, 0);
+  margin-bottom: 24px;
+}
+
+.touch-image {
+  height: 757px;
+  flex: 1 0 0;
+}
