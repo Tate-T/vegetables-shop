@@ -1,11 +1,10 @@
-/* reset.css */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* header.css */
 body {
     font-family: 'Public Sans', sans-serif;
     background-color: #f5f5f5;
@@ -19,11 +18,13 @@ body {
 }
 
 .header {
-    /* padding: 20px; */
     background-color: #5E8A4D;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     padding-bottom: 6px;
     padding-top: 6px;
+    display: flex;
+    align-items: center;  
+    
 }
 
 .header-content {
@@ -35,6 +36,7 @@ body {
 .header-img {
     width: 142px;
     height: 60px;
+     margin-left: 64px; 
 }
 
 .header-list {
@@ -77,6 +79,11 @@ body {
     gap: 8px;
     height: auto;
     width: auto;
-    margin-left: 32px;
+}
 
+.header-nav {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    margin-left: 64px;
 }

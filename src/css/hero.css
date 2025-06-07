@@ -24,37 +24,42 @@
 
 
 }
-.hero-overlay{
+
+.hero-overlay {
     padding-left: 64px;
     padding-top: 326px;
     padding-bottom: 326px;
 
 }
-.hero-description{
+
+.hero-description {
     font-family: 'Public Sans', sans-serif;
     font-weight: 400;
     font-size: 18px;
-    line-height: 150%; 
+    line-height: 150%;
     letter-spacing: 0;
     color: #FFFFFF;
 }
+
 .hero-button {
-  width: 199px; 
-  height: 36px; 
-  border-radius: 6px;
-  border: 1px solid #FFFFFF; 
-   justify-content: center;
-  padding: 6px 32px;
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  box-sizing: border-box;
-  margin-top: 16px;
+    width: 199px;
+    height: 36px;
+    border-radius: 6px;
+    border: 1px solid #FFFFFF;
+    justify-content: center;
+    padding: 6px 32px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    box-sizing: border-box;
+    margin-top: 16px;
+    background-color: #fff;
 }
+
 .hero-button-text {
-   font-family: 'Public Sans', sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 150%; 
-  letter-spacing: 0;
+    font-family: 'Public Sans', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0;
 }
