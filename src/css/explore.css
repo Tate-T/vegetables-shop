@@ -74,16 +74,19 @@
     font-style: normal;
     font-weight: 400;
     line-height: 150%;
+    align-self: stretch;
 }
 
 .explore-quantity {
     color: #010400;
+    width: 53px;
+    text-align: right;
     font-family: "Public Sans";
     font-size: 10px;
     font-style: normal;
     font-weight: 400;
     line-height: 130%;
-    text-align: right;
+
 }
 
 .explore-button {
@@ -103,4 +106,8 @@
     height: 364.8px;
     flex-shrink: 0;
     align-self: stretch;
+}
+
+.explore-box {
+    display: flex;
 }
