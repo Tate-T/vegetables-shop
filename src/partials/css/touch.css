@@ -1,12 +1,16 @@
 /* touch */
 .container {
   display: flex;
-  width: 1440px;
-  margin-right: auto;
-  margin-left: auto;
+  margin-right: 64px;
+  margin-left: 64px;
   margin-top: 112px;
+  margin-bottom: 112px;
   flex-direction: column;
   flex-wrap: wrap;
+}
+
+.touch {
+  display: flex;
 }
 
 .touch-contacts {
