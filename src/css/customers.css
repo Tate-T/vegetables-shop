@@ -6,7 +6,7 @@
 
 .customers {
     background: #E8EEE5;
-    padding: 112px 64px;
+    padding: 112px;
 }
 
 .custumers-title {
@@ -60,13 +60,11 @@
 
 .customers-star {
     width: 20px;
-    height: 18.889px;
 }
 
 .customers-photo {
     border-radius: 48px;
     width: 48px;
-    height: 48px;
 }
 
 .customers-text {

@@ -180,4 +180,5 @@ margin-right: 24px;
   border: 1px solid rgba(1, 4, 0, 0.15);
   background: rgba(255, 255, 255, 0);
   margin-bottom: 24px;
+  resize: none;
 } 
