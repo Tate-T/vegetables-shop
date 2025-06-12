@@ -44,4 +44,5 @@
     height: 738px;
     align-self: stretch;
     aspect-ratio: 16/9;
+    background: url("../image/family-and-.webp") lightgray 50% / cover no-repeat;
 }

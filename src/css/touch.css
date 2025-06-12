@@ -16,7 +16,7 @@
 }
 
 .touch-box {
-margin-right: 24px;
+  margin-right: 24px;
 }
 
 .touch-contacts {
@@ -78,7 +78,7 @@ margin-right: 24px;
 }
 
 .touch-phone {
-    color: #010400;
+  color: #010400;
   font-family: "Public Sans", sans-serif;
   font-size: 16px;
   font-style: normal;
@@ -159,7 +159,7 @@ margin-right: 24px;
 
 .touch-label_email {
   color: #010400;
-   font-family: "Public Sans";
+  font-family: "Public Sans";
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -180,4 +180,5 @@ margin-right: 24px;
   border: 1px solid rgba(1, 4, 0, 0.15);
   background: rgba(255, 255, 255, 0);
   margin-bottom: 24px;
-} 
+  resize: none;
+}

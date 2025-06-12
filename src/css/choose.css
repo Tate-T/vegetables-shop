@@ -70,7 +70,6 @@
     display: block;
     background-repeat: no-repeat;
     background-position: left;
-    margin-bottom: 16px;
 }
 
 .choose-item:nth-child(1)::before {
