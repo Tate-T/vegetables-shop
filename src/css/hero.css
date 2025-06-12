@@ -52,6 +52,13 @@
     background-color: #FFF;
 }
 
+.hero-button:hover {
+    border: 1px solid #1A5901;
+    background: #1A5901;
+    box-shadow: 2px 7px 27px -4px rgba(0, 0, 0, 0.35) inset;
+    color: #FFF;
+}
+
 .hero-button-text {
     font-family: 'Public Sans', sans-serif;
     font-weight: 500;
