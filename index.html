@@ -1,0 +1,692 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- publik sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet" />
+  <!-- Chivo -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,100..900;1,100..900&family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet" />
+  <!-- Normalize style -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+    integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- Reset CSS -->
+  <title></title>
+  <script type="module" crossorigin src="/vegetables-shop/commonHelpers.js"></script>
+  <link rel="stylesheet" crossorigin href="/vegetables-shop/assets/index-CIBIhvc-.css">
+</head>
+
+<body>
+  
+    <header class="header">
+      <a href=""><img src="data:image/webp;base64,UklGRqYFAABXRUJQVlA4WAoAAAAQAAAAjgAAPAAAQUxQSAUFAAABsFXbdhBp15EQCUdCJEQCDr5IwAFx0DgAB1UOwAHtIDiIhPVwkgB1u/77GhETIHdqHFMM8hdrjDEG+Ww3Zapl0b8nAuyf9a/QO32/iYvLt5uwZU1pzoblj9EYYxw+SLGzExsLwPi3fPxqkjS9Ka7LheBqPsbgLukQY/DXNMZBb3IhxqBPKECWzgQwisgKZAkboGYs2EVPYKm4qVDNU20FkOHALloJALEWNqpbvG80sceZrVEmrFlo5tLyhc7sOiaaWS/90Plz29tojxwArtZUkYmLRjP2PA0/Hb3blYXu5a4DKNK9Gn9JscsQYu6IAC8nohkoriOnOL4Nvi8ClKQuZoDhphPIfbMJrRxVRGQ1o9itNZ/neYgNAL6VnYjIbMa+DGQVEdECbJ+S+rKTagF2qYZWrzehNYj1JnUFgCjVcd/33d1X+ta+IFUFSDUpfU79MJcLWnHXktHakweA69qMb7haMLFxdAyvQmeH1K+tRp6fTegqQJGG1L0ZL+lBvfxecE+UDwjm1RMB3o3ScGarORoZYB+Dirugd80A7jkpAKGl2cQGDTkBQmVqeICXWP8Zowk150MI7qZkstb0AMhyLZkcRdxEYzCx8vMZzmy1Fchy94FdgmqYClZvcIVqpt5ajOczZAOYzASw3KbZdCe5QWINKKXmDEsYZqrDc1oA8jxvAFlvE819ZZRbZMi17M+azKZaTHxOfKGzeHnQpZ5d5SaROO/7OjopDZkb2Z9A+gDR3Dq8PKvx/Vs49xSkPazrnPqaDiAZGd6/5/kenQwppUFEhpRScrWUUgoioiml5Csi8f1LOdcg/+vLsW1TLZqh8sU3gNH4bPTbeUPelgOb5OtH017lP2DIrZLkv+Gw/p7n+R6d/P8dxpTSGFpxWZble7mpUM+Tq6wAf4vzMS2vI9vtKV/ozfoXhfmge39IC/3Z/TVuKlx9agU4goqPGWD8W9xUuL484wCyE6tm+1NCprtslfSMN4vUNyD3hGXbtqQ9bnrlvM2hoTHG6CTMr+016h0T/VlDZfiArRFiDKHlNupTw/3Q3LQSAfyL+s+1ifpe2d2/UvHPOMNYa1cO2mNFM53Fd2Tay5WR+i4FSO6HapGHN8MxBneptzgRcRl77gWgaMuWCmOf0hw95KAH9fdTvhh7LMOFOagfC0AUkR+AXUUkAWwdRxDxL1Nc19oKI7uGQjM+JT43gLJoxyI2mVlEAbJUZ4DQyE7sBhB7lLbbZhnP9/qu6WPi4m8LsrZ8Rc0iEk2suQK8G1Gqwcw9cyvLIOJExFd2+Ugd5r3G0ZJ6421cTQ4gN1xNCvDuOVqLuHF55UI9fkZ1OAzhps1IcwVoSPME9h6aWX2hN8tHv8z8Ce8PyhoK3emxmFJKrcEsN61GGwdwNLTmAN7XDv1Hf5bHV4DQiCbdFE2qKcDSGGvRjD3FHG7kYnwumqwVl81wkytAUeMOo42sRrPxPRuQdeLiLM+7DJCnEIapAGS5SUaAHL3GA2CRBjl6P2aAXXoTZBW1zjcO+cRguv1tstKdtaNXuwJFh9drsUftcB8hQ+4qQe6TuedQaZWOKP1bmri4O/lQXUujJCdPSMy1kpx0DGtt99Kv20R/GeWTw5hSGoM0napqQ1XV1URCWtc5OKlXgmic1zHIRXeQ9q5F5QtWVO59kUR0/jVlH518xSciL6mrqnzNJ/TtGl/1iS9dCf8hnKqq+wsAAFZQOCB6AAAAkAcAnQEqjwA9AAAAACWkDGAP0A/gAOi34AfQAGzBfbVYzE1QUbjJtGZy5vURn7VFyIW++5JT0FW4QpN/ELkyS0gwxqTAAP7Yn/vnFYlee//fNwCv/+l0+v//pdOC//6XTHH9if984rMv//d2gUv//S6au//6XTAAAAA=" alt="" class="header-img"></a>
+      <div class="header-nav">
+      <nav>
+        <ul class="header-list">
+          <li class="header-item">
+            <a href="" class="header-text">Home</a>
+          </li>
+          <li class="header-item">
+            <a href="" class="header-text">Mission</a>
+          </li>
+          <li class="header-item">
+            <a href="" class="header-text">Benefits</a>
+          </li>
+          <li class="header-item">
+            <a href="" class="header-text">Assortment</a>
+          </li>
+          <li class="header-item">
+            <a href="" class="header-text">Feedbacks</a>
+          </li>
+          <li class="header-item">
+            <a href="" class="header-text">FAQ</a>
+          </li>
+          <li class="header-item">
+            <a href="" class="header-text">Contacts</a>
+          </li>
+        </ul>
+      </nav>
+      <button class="header-button">Order</button>
+    </div>
+
+</header>
+  <section class="hero">
+  <div class="container">
+    <h1 class="hero-title">Organic Shop –<br> Naturally better.</h1>
+    <p class="hero-description">
+      Your source for fresh, healthy, and responsibly grown food. Discover the taste <br> of nature with our carefully
+      selected organic products.
+    </p>
+    <button class="hero-button">
+      <p class="hero-button-text">Buy</p>
+    </button>
+  </div>
+</section>
+  <section id="mission" class="mission">
+
+  <div class="container ">
+    <div class="mission-text">
+
+      <h2 class="mission-heading">
+        Our Mission: Fresh, Local, <br>
+        and Organic for a Healthier <br>
+        Tomorrow.
+      </h2>
+      <p class="mission-description">
+        At Organic Shop, we believe in the power of nature. Our mission is to provide <br>
+        you with fresh, locally sourced organic products that nourish both body and <br>
+        soul. We partner with ethical farmers who share our commitment to <br>
+        sustainability and quality.
+      </p>
+    </div>
+  </div>
+</section>
+  <section id="choose" class="choose">
+    <div class="container choose-content">
+
+        <img src="/vegetables-shop/assets/food-on-table-CG_LdkTC.webp" alt="food-on-table" class="choose-img">
+        <article class="choose-box">
+            <h4 class="choose-title">Why Choose Organic?</h4>
+            <p class="choose-subtitle">Organic products offer a healthier choice for you and your family. With no
+                synthetic pesticides or GMOs, you can enjoy better nutrition and natural flavors while supporting
+                sustainable farming practices.</p>
+            <ul class="choose-list">
+                <li class="choose-item">
+                    <h4 class="choose-list-title">Better for Your Health</h4>
+                    <p class="choose-text">Organic foods are grown without synthetic chemicals, making them safer
+                        for your body. They're rich in antioxidants and nutrients that support your immune system
+                        and long-term well-being.</p>
+                </li>
+                <li class="choose-item">
+                    <h4 class="choose-list-title">Protecting the Planet</h4>
+                    <p class="choose-text">Organic farming reduces pollution, conserves water, and improves soil
+                        health. By choosing organic, you're helping build a cleaner, more sustainable environment
+                        for future generations.</p>
+                </li>
+                <li class="choose-item">
+                    <h4 class="choose-list-title">Fruits & Vegetables</h4>
+                    <p class="choose-text">Freshly picked organic produce delivered straight from local farms to
+                        your table.</p>
+                </li>
+                <li class="choose-item">
+                    <h4 class="choose-list-title">Dairy Products</h4>
+                    <p class="choose-text">Creamy, organic dairy options that are both delicious and ethically
+                        sourced.</p>
+                </li>
+            </ul>
+        </article>
+    </div>
+</section>
+  <section id="explore" class="explore">
+    <div class="container">
+        <p class="explore-assortment">Assortment</p>
+        <h4 class="explore-title">Explore Our Delicious Organic <br>
+            Product Range</h4>
+        <ul class="explore-list">
+
+            <li class="explore-item">
+                <img src="/vegetables-shop/assets/apples-DFCCqY59.webp" alt="" class="explore-img">
+                <div class="explore-box">
+                    <div class="explore-info">
+                        <h5 class="explore-name">Organic Gala Apples</h5>
+                        <p class="explore-diskription">Juicy, crisp, and sweet apples grown without pesticides.</p>
+                    </div>
+                    <div class="explore-cost">
+                        <h5 class="explore-price">$3.50</h5>
+                        <p class="explore-quantity">per 1 pound</p>
+                    </div>
+                </div>
+                <button class="explore-button">Add to cart</button>
+            </li>
+
+            <li class="explore-item">
+                <img src="/vegetables-shop/assets/spinach-D4fsM7Vh.webp" alt="" class="explore-img">
+                <div class="explore-box">
+                    <div class="explore-info">
+                        <h5 class="explore-name">Fresh Organic Spinach</h5>
+                        <p class="explore-diskription">Young spinach leaves hand-picked from a local organic farm.</p>
+                    </div>
+                    <div class="explore-cost">
+                        <h5 class="explore-price">$2.80</h5>
+                        <p class="explore-quantity">per bunch</p>
+                    </div>
+                </div>
+                <button class="explore-button">Add to cart</button>
+            </li>
+
+            <li class="explore-item">
+
+                <img src="/vegetables-shop/assets/eggs-BwlT94Jn.webp" alt="" class="explore-img">
+                <div class="explore-box">
+                    <div class="explore-info">
+                        <h5 class="explore-name">Free-Range Organic Eggs</h5>
+                        <p class="explore-diskription">Eggs from free-range hens fed with natural feed.</p>
+                    </div>
+                    <div class="explore-cost">
+                        <h5 class="explore-price">$5.00</h5>
+                        <p class="explore-quantity">per dozen</p>
+                    </div>
+                </div>
+                <button class="explore-button">Add to cart</button>
+            </li>
+
+            <li class="explore-item">
+                <img src="/vegetables-shop/assets/milk-BM2I18zZ.webp" alt="" class="explore-img">
+                <div class="explore-box">
+                    <div class="explore-info">
+                        <h5 class="explore-name">Organic Almond Milk</h5>
+                        <p class="explore-diskription">Natural plant-based milk with no added sugar — perfect for
+                            coffee and
+                            breakfast.</p>
+                    </div>
+                    <div class="explore-cost">
+                        <h5 class="explore-price">$4.20</h5>
+                        <p class="explore-quantity">per 1 liter</p>
+                    </div>
+                </div>
+                <button class="explore-button">Add to cart</button>
+            </li>
+
+            <li class="explore-item">
+                <img src="/vegetables-shop/assets/honey-BcmuQEt8.webp" alt="" class="explore-img">
+
+                <div class="explore-box">
+                    <div class="explore-info">
+                        <h5 class="explore-name">Raw Organic Honey</h5>
+                        <p class="explore-diskription">Unfiltered honey straight from the apiary — natural, sweet, and
+                            healthy.</p>
+                    </div>
+                    <div class="explore-cost">
+                        <h5 class="explore-price">$4.20</h5>
+                        <p class="explore-quantity">per 1 liter</p>
+                    </div>
+                </div>
+                <button class="explore-button">Add to cart</button>
+            </li>
+
+            <li class="explore-item">
+                <img src="/vegetables-shop/assets/carrot-1sItzAnq.webp" alt="" class="explore-img">
+                <div class="explore-box">
+                    <div class="explore-info">
+                        <h5 class="explore-name">Organic Carrots</h5>
+                        <p class="explore-diskription">Crunchy and sweet carrots grown without chemicals.</p>
+                    </div>
+                    <div class="explore-cost">
+                        <h5 class="explore-price">$1.90</h5>
+                        <p class="explore-quantity">per 1 pound</p>
+                    </div>
+                </div>
+                <button class="explore-button">Add to cart</button>
+            </li>
+
+            <li class="explore-item">
+                <img src="/vegetables-shop/assets/bread-C3LusIQ9.webp" alt="" class="explore-img">
+                <div class="explore-box">
+                    <div class="explore-info">
+                        <h5 class="explore-name">Wholegrain Organic Bread</h5>
+                        <p class="explore-diskription">Homemade sourdough bread made with organic wholegrain flour.</p>
+                    </div>
+                    <div class="explore-cost">
+                        <h5 class="explore-price">$4.80</h5>
+                        <p class="explore-quantity">per loaf</p>
+                    </div>
+                </div>
+                <button class="explore-button">Add to cart</button>
+
+            </li>
+            <li class="explore-item">
+                <img src="/vegetables-shop/assets/tea-BfwjjtN5.webp" alt="" class="explore-img">
+                <div class="explore-box">
+                    <div class="explore-info">
+                        <h5 class="explore-name">Organic Herbal Tea Mix</h5>
+                        <p class="explore-diskription">Fragrant blend of mint, chamomile, and thyme — perfect for
+                            relaxation.</p>
+                    </div>
+                    <div class="explore-cost">
+                        <h5 class="explore-price">$6.30</h5>
+                        <p class="explore-quantity">per 100g</p>
+                    </div>
+                </div>
+                <button class="explore-button">Add to cart</button>
+            </li>
+        </ul>
+    </div>
+</section>
+    <section id="customers" class="customers">
+    <div class="container">
+      <h5 class="custumers-title">What Our Customers Say</h5>
+      <p class="customers-subtitle">
+        We’re proud to grow a community that values health, sustainability,
+        and real <br />
+        flavor. Read what our happy customers have to say about their
+        experience <br />
+        with our organic products.
+      </p>
+      <ul class="customers-list">
+        <li class="customers-item">
+          <ul class="customers-stars">
+            <li class="customers-starlist-item">
+              <img src="data:image/webp;base64,UklGRswAAABXRUJQVlA4WAoAAAAQAAAAFAAAEwAAQUxQSHkAAAABcE5bW2Y9CCG8CIMQSgghZHAzmAwGoWsQwovwIjw/3r4QImICsA6Cm2rhQiLLhU7amZBkPGquH0hUxySzPNS4r/2HwYsWRM/0AaSfqMDXvX/AvO58WMedvFF23o2+Yxv0OhxlEUlaAZKSTItMfgIAUsl3IS1iKe1xAFZQOCAsAAAA8AIAnQEqFQAUAD6RQpxKJaOioagIALASCWkAAD36cwAA/viyFI7vggoAAAA=" alt="" class="custumers-star" />
+            </li>
+            <li class="customers-starlist-item">
+              <img src="data:image/webp;base64,UklGRswAAABXRUJQVlA4WAoAAAAQAAAAFAAAEwAAQUxQSHkAAAABcE5bW2Y9CCG8CIMQSgghZHAzmAwGoWsQwovwIjw/3r4QImICsA6Cm2rhQiLLhU7amZBkPGquH0hUxySzPNS4r/2HwYsWRM/0AaSfqMDXvX/AvO58WMedvFF23o2+Yxv0OhxlEUlaAZKSTItMfgIAUsl3IS1iKe1xAFZQOCAsAAAA8AIAnQEqFQAUAD6RQpxKJaOioagIALASCWkAAD36cwAA/viyFI7vggoAAAA=" alt="" class="custumers-star" />
+            </li>
+            <li class="customers-starlist-item">
+              <img src="data:image/webp;base64,UklGRswAAABXRUJQVlA4WAoAAAAQAAAAFAAAEwAAQUxQSHkAAAABcE5bW2Y9CCG8CIMQSgghZHAzmAwGoWsQwovwIjw/3r4QImICsA6Cm2rhQiLLhU7amZBkPGquH0hUxySzPNS4r/2HwYsWRM/0AaSfqMDXvX/AvO58WMedvFF23o2+Yxv0OhxlEUlaAZKSTItMfgIAUsl3IS1iKe1xAFZQOCAsAAAA8AIAnQEqFQAUAD6RQpxKJaOioagIALASCWkAAD36cwAA/viyFI7vggoAAAA=" alt="" class="custumers-star" />
+            </li>
+            <li class="customers-starlist-item">
+              <img src="data:image/webp;base64,UklGRswAAABXRUJQVlA4WAoAAAAQAAAAFAAAEwAAQUxQSHkAAAABcE5bW2Y9CCG8CIMQSgghZHAzmAwGoWsQwovwIjw/3r4QImICsA6Cm2rhQiLLhU7amZBkPGquH0hUxySzPNS4r/2HwYsWRM/0AaSfqMDXvX/AvO58WMedvFF23o2+Yxv0OhxlEUlaAZKSTItMfgIAUsl3IS1iKe1xAFZQOCAsAAAA8AIAnQEqFQAUAD6RQpxKJaOioagIALASCWkAAD36cwAA/viyFI7vggoAAAA=" alt="" class="custumers-star" />
+            </li>
+            <li class="customers-starlist-item">
+              <img src="data:image/webp;base64,UklGRswAAABXRUJQVlA4WAoAAAAQAAAAFAAAEwAAQUxQSHkAAAABcE5bW2Y9CCG8CIMQSgghZHAzmAwGoWsQwovwIjw/3r4QImICsA6Cm2rhQiLLhU7amZBkPGquH0hUxySzPNS4r/2HwYsWRM/0AaSfqMDXvX/AvO58WMedvFF23o2+Yxv0OhxlEUlaAZKSTItMfgIAUsl3IS1iKe1xAFZQOCAsAAAA8AIAnQEqFQAUAD6RQpxKJaOioagIALASCWkAAD36cwAA/viyFI7vggoAAAA=" alt="" class="custumers-star" />
+            </li>
+          </ul>
+          <p class="customers-text">
+            Their eco-friendly packaging is a big plus for me. Highly
+            recommend!
+          </p>
+          <div class="customers-content">
+            <img src="/vegetables-shop/assets/tony-BS41MhC2.webp" alt="" class="customers-photo" />
+            <p class="customers-name">Tony Lee</p>
+          </div>
+        </li>
+        <li class="customers-item">
+          <ul class="customers-stars">
+            <li class="customers-starlist-item">
+              <img src="data:image/webp;base64,UklGRswAAABXRUJQVlA4WAoAAAAQAAAAFAAAEwAAQUxQSHkAAAABcE5bW2Y9CCG8CIMQSgghZHAzmAwGoWsQwovwIjw/3r4QImICsA6Cm2rhQiLLhU7amZBkPGquH0hUxySzPNS4r/2HwYsWRM/0AaSfqMDXvX/AvO58WMedvFF23o2+Yxv0OhxlEUlaAZKSTItMfgIAUsl3IS1iKe1xAFZQOCAsAAAA8AIAnQEqFQAUAD6RQpxKJaOioagIALASCWkAAD36cwAA/viyFI7vggoAAAA=" alt="" class="custumers-star" />
+            </li>
+            <li class="customers-starlist-item">
+              <img src="data:image/webp;base64,UklGRswAAABXRUJQVlA4WAoAAAAQAAAAFAAAEwAAQUxQSHkAAAABcE5bW2Y9CCG8CIMQSgghZHAzmAwGoWsQwovwIjw/3r4QImICsA6Cm2rhQiLLhU7amZBkPGquH0hUxySzPNS4r/2HwYsWRM/0AaSfqMDXvX/AvO58WMedvFF23o2+Yxv0OhxlEUlaAZKSTItMfgIAUsl3IS1iKe1xAFZQOCAsAAAA8AIAnQEqFQAUAD6RQpxKJaOioagIALASCWkAAD36cwAA/viyFI7vggoAAAA=" alt="" class="custumers-star" />
+            </li>
+            <li class="customers-starlist-item">
+              <img src="data:image/webp;base64,UklGRswAAABXRUJQVlA4WAoAAAAQAAAAFAAAEwAAQUxQSHkAAAABcE5bW2Y9CCG8CIMQSgghZHAzmAwGoWsQwovwIjw/3r4QImICsA6Cm2rhQiLLhU7amZBkPGquH0hUxySzPNS4r/2HwYsWRM/0AaSfqMDXvX/AvO58WMedvFF23o2+Yxv0OhxlEUlaAZKSTItMfgIAUsl3IS1iKe1xAFZQOCAsAAAA8AIAnQEqFQAUAD6RQpxKJaOioagIALASCWkAAD36cwAA/viyFI7vggoAAAA=" alt="" class="custumers-star" />
+            </li>
+            <li class="customers-starlist-item">
+              <img src="data:image/webp;base64,UklGRswAAABXRUJQVlA4WAoAAAAQAAAAFAAAEwAAQUxQSHkAAAABcE5bW2Y9CCG8CIMQSgghZHAzmAwGoWsQwovwIjw/3r4QImICsA6Cm2rhQiLLhU7amZBkPGquH0hUxySzPNS4r/2HwYsWRM/0AaSfqMDXvX/AvO58WMedvFF23o2+Yxv0OhxlEUlaAZKSTItMfgIAUsl3IS1iKe1xAFZQOCAsAAAA8AIAnQEqFQAUAD6RQpxKJaOioagIALASCWkAAD36cwAA/viyFI7vggoAAAA=" alt="" class="custumers-star" />
+            </li>
+            <li class="customers-starlist-item">
+              <img src="data:image/webp;base64,UklGRswAAABXRUJQVlA4WAoAAAAQAAAAFAAAEwAAQUxQSHkAAAABcE5bW2Y9CCG8CIMQSgghZHAzmAwGoWsQwovwIjw/3r4QImICsA6Cm2rhQiLLhU7amZBkPGquH0hUxySzPNS4r/2HwYsWRM/0AaSfqMDXvX/AvO58WMedvFF23o2+Yxv0OhxlEUlaAZKSTItMfgIAUsl3IS1iKe1xAFZQOCAsAAAA8AIAnQEqFQAUAD6RQpxKJaOioagIALASCWkAAD36cwAA/viyFI7vggoAAAA=" alt="" class="custumers-star" />
+            </li>
+          </ul>
+          <p class="customers-text">
+            "I absolutely love the variety of organic produce available here.
+            Everything is fresh and bursting with flavor!"
+          </p>
+          <div class="customers-content">
+            <img src="/vegetables-shop/assets/emili-BVT6MJFB.webp" alt="" class="customers-photo" />
+            <p class="customers-name">Emily Johnson</p>
+          </div>
+        </li>
+        <li class="customers-item">
+          <ul class="customers-stars">
+            <li class="customers-starlist-item">
+              <img src="data:image/webp;base64,UklGRswAAABXRUJQVlA4WAoAAAAQAAAAFAAAEwAAQUxQSHkAAAABcE5bW2Y9CCG8CIMQSgghZHAzmAwGoWsQwovwIjw/3r4QImICsA6Cm2rhQiLLhU7amZBkPGquH0hUxySzPNS4r/2HwYsWRM/0AaSfqMDXvX/AvO58WMedvFF23o2+Yxv0OhxlEUlaAZKSTItMfgIAUsl3IS1iKe1xAFZQOCAsAAAA8AIAnQEqFQAUAD6RQpxKJaOioagIALASCWkAAD36cwAA/viyFI7vggoAAAA=" alt="" class="custumers-star" />
+            </li>
+            <li class="customers-starlist-item">
+              <img src="data:image/webp;base64,UklGRswAAABXRUJQVlA4WAoAAAAQAAAAFAAAEwAAQUxQSHkAAAABcE5bW2Y9CCG8CIMQSgghZHAzmAwGoWsQwovwIjw/3r4QImICsA6Cm2rhQiLLhU7amZBkPGquH0hUxySzPNS4r/2HwYsWRM/0AaSfqMDXvX/AvO58WMedvFF23o2+Yxv0OhxlEUlaAZKSTItMfgIAUsl3IS1iKe1xAFZQOCAsAAAA8AIAnQEqFQAUAD6RQpxKJaOioagIALASCWkAAD36cwAA/viyFI7vggoAAAA=" alt="" class="custumers-star" />
+            </li>
+            <li class="customers-starlist-item">
+              <img src="data:image/webp;base64,UklGRswAAABXRUJQVlA4WAoAAAAQAAAAFAAAEwAAQUxQSHkAAAABcE5bW2Y9CCG8CIMQSgghZHAzmAwGoWsQwovwIjw/3r4QImICsA6Cm2rhQiLLhU7amZBkPGquH0hUxySzPNS4r/2HwYsWRM/0AaSfqMDXvX/AvO58WMedvFF23o2+Yxv0OhxlEUlaAZKSTItMfgIAUsl3IS1iKe1xAFZQOCAsAAAA8AIAnQEqFQAUAD6RQpxKJaOioagIALASCWkAAD36cwAA/viyFI7vggoAAAA=" alt="" class="custumers-star" />
+            </li>
+            <li class="customers-starlist-item">
+              <img src="data:image/webp;base64,UklGRswAAABXRUJQVlA4WAoAAAAQAAAAFAAAEwAAQUxQSHkAAAABcE5bW2Y9CCG8CIMQSgghZHAzmAwGoWsQwovwIjw/3r4QImICsA6Cm2rhQiLLhU7amZBkPGquH0hUxySzPNS4r/2HwYsWRM/0AaSfqMDXvX/AvO58WMedvFF23o2+Yxv0OhxlEUlaAZKSTItMfgIAUsl3IS1iKe1xAFZQOCAsAAAA8AIAnQEqFQAUAD6RQpxKJaOioagIALASCWkAAD36cwAA/viyFI7vggoAAAA=" alt="" class="custumers-star" />
+            </li>
+            <li class="customers-starlist-item">
+              <img src="data:image/webp;base64,UklGRjABAABXRUJQVlA4WAoAAAAQAAAAFAAAEwAAQUxQSJsAAAABgEhbe13pIPwIH0IRgnARglCDW4PGoDHoGKQGHYO/BkGYZx4IETEBtE3M9GoT4pW2CSWGOiaHEobyDq8yoOACq1H/rbfXr+czAizX8/XlZec+ZHSbtmryN4OrL6ByWtfu4m9ytaxcxv/po5VO2uFq5bVjS614dJQAhACodnwZKn674FEj3Pb2DaIfyrGxFj8FoOTlaCgHmsrLHwBWUDggbgAAAHACAJ0BKhUAFAAAAAAlpAFQVk5YFJOTzUp7cAAA/v/fRlwxyAcEaoGjbzlA1a4e1EUOgE8WjMbdyayXM5G6GqEK2fpk1J8/AMKmIM0eQgR6n/vyWvGmsghwWmfLgwLKQq2BDi7wWWLepzcYAAAA" alt="" class="custumers-star" />
+            </li>
+          </ul>
+          <p class="customers-text">
+            "The staff is incredibly knowledgeable and always willing to help
+            me find what I need. Great service!"
+          </p>
+          <div class="customers-content">
+            <img src="/vegetables-shop/assets/michael-CQb4rafT.webp" alt="" class="customers-photo" />
+            <p class="customers-name">Michael Smith</p>
+          </div>
+        </li>
+        <li class="customers-item">
+          <ul class="customers-stars">
+            <li class="customers-starlist-item">
+              <img src="data:image/webp;base64,UklGRswAAABXRUJQVlA4WAoAAAAQAAAAFAAAEwAAQUxQSHkAAAABcE5bW2Y9CCG8CIMQSgghZHAzmAwGoWsQwovwIjw/3r4QImICsA6Cm2rhQiLLhU7amZBkPGquH0hUxySzPNS4r/2HwYsWRM/0AaSfqMDXvX/AvO58WMedvFF23o2+Yxv0OhxlEUlaAZKSTItMfgIAUsl3IS1iKe1xAFZQOCAsAAAA8AIAnQEqFQAUAD6RQpxKJaOioagIALASCWkAAD36cwAA/viyFI7vggoAAAA=" alt="" class="custumers-star" />
+            </li>
+            <li class="customers-starlist-item">
+              <img src="data:image/webp;base64,UklGRswAAABXRUJQVlA4WAoAAAAQAAAAFAAAEwAAQUxQSHkAAAABcE5bW2Y9CCG8CIMQSgghZHAzmAwGoWsQwovwIjw/3r4QImICsA6Cm2rhQiLLhU7amZBkPGquH0hUxySzPNS4r/2HwYsWRM/0AaSfqMDXvX/AvO58WMedvFF23o2+Yxv0OhxlEUlaAZKSTItMfgIAUsl3IS1iKe1xAFZQOCAsAAAA8AIAnQEqFQAUAD6RQpxKJaOioagIALASCWkAAD36cwAA/viyFI7vggoAAAA=" alt="" class="custumers-star" />
+            </li>
+            <li class="customers-starlist-item">
+              <img src="data:image/webp;base64,UklGRswAAABXRUJQVlA4WAoAAAAQAAAAFAAAEwAAQUxQSHkAAAABcE5bW2Y9CCG8CIMQSgghZHAzmAwGoWsQwovwIjw/3r4QImICsA6Cm2rhQiLLhU7amZBkPGquH0hUxySzPNS4r/2HwYsWRM/0AaSfqMDXvX/AvO58WMedvFF23o2+Yxv0OhxlEUlaAZKSTItMfgIAUsl3IS1iKe1xAFZQOCAsAAAA8AIAnQEqFQAUAD6RQpxKJaOioagIALASCWkAAD36cwAA/viyFI7vggoAAAA=" alt="" class="custumers-star" />
+            </li>
+            <li class="customers-starlist-item">
+              <img src="data:image/webp;base64,UklGRswAAABXRUJQVlA4WAoAAAAQAAAAFAAAEwAAQUxQSHkAAAABcE5bW2Y9CCG8CIMQSgghZHAzmAwGoWsQwovwIjw/3r4QImICsA6Cm2rhQiLLhU7amZBkPGquH0hUxySzPNS4r/2HwYsWRM/0AaSfqMDXvX/AvO58WMedvFF23o2+Yxv0OhxlEUlaAZKSTItMfgIAUsl3IS1iKe1xAFZQOCAsAAAA8AIAnQEqFQAUAD6RQpxKJaOioagIALASCWkAAD36cwAA/viyFI7vggoAAAA=" alt="" class="custumers-star" />
+            </li>
+            <li class="customers-starlist-item">
+              <img src="data:image/webp;base64,UklGRswAAABXRUJQVlA4WAoAAAAQAAAAFAAAEwAAQUxQSHkAAAABcE5bW2Y9CCG8CIMQSgghZHAzmAwGoWsQwovwIjw/3r4QImICsA6Cm2rhQiLLhU7amZBkPGquH0hUxySzPNS4r/2HwYsWRM/0AaSfqMDXvX/AvO58WMedvFF23o2+Yxv0OhxlEUlaAZKSTItMfgIAUsl3IS1iKe1xAFZQOCAsAAAA8AIAnQEqFQAUAD6RQpxKJaOioagIALASCWkAAD36cwAA/viyFI7vggoAAAA=" alt="" class="custumers-star" />
+            </li>
+          </ul>
+          <p class="customers-text">
+            "I've noticed a significant improvement in my health since
+            switching to their organic products. Highly recommend!"
+          </p>
+          <div class="customers-content">
+            <img src="/vegetables-shop/assets/sarah-B2RRgWTJ.webp" alt="" class="customers-photo" />
+            <p class="customers-name">Sarah Davis</p>
+          </div>
+        </li>
+        <li class="customers-item">
+          <ul class="customers-stars">
+            <li class="customers-starlist-item">
+              <img src="data:image/webp;base64,UklGRswAAABXRUJQVlA4WAoAAAAQAAAAFAAAEwAAQUxQSHkAAAABcE5bW2Y9CCG8CIMQSgghZHAzmAwGoWsQwovwIjw/3r4QImICsA6Cm2rhQiLLhU7amZBkPGquH0hUxySzPNS4r/2HwYsWRM/0AaSfqMDXvX/AvO58WMedvFF23o2+Yxv0OhxlEUlaAZKSTItMfgIAUsl3IS1iKe1xAFZQOCAsAAAA8AIAnQEqFQAUAD6RQpxKJaOioagIALASCWkAAD36cwAA/viyFI7vggoAAAA=" alt="" class="custumers-star" />
+            </li>
+            <li class="customers-starlist-item">
+              <img src="data:image/webp;base64,UklGRswAAABXRUJQVlA4WAoAAAAQAAAAFAAAEwAAQUxQSHkAAAABcE5bW2Y9CCG8CIMQSgghZHAzmAwGoWsQwovwIjw/3r4QImICsA6Cm2rhQiLLhU7amZBkPGquH0hUxySzPNS4r/2HwYsWRM/0AaSfqMDXvX/AvO58WMedvFF23o2+Yxv0OhxlEUlaAZKSTItMfgIAUsl3IS1iKe1xAFZQOCAsAAAA8AIAnQEqFQAUAD6RQpxKJaOioagIALASCWkAAD36cwAA/viyFI7vggoAAAA=" alt="" class="custumers-star" />
+            </li>
+            <li class="customers-starlist-item">
+              <img src="data:image/webp;base64,UklGRswAAABXRUJQVlA4WAoAAAAQAAAAFAAAEwAAQUxQSHkAAAABcE5bW2Y9CCG8CIMQSgghZHAzmAwGoWsQwovwIjw/3r4QImICsA6Cm2rhQiLLhU7amZBkPGquH0hUxySzPNS4r/2HwYsWRM/0AaSfqMDXvX/AvO58WMedvFF23o2+Yxv0OhxlEUlaAZKSTItMfgIAUsl3IS1iKe1xAFZQOCAsAAAA8AIAnQEqFQAUAD6RQpxKJaOioagIALASCWkAAD36cwAA/viyFI7vggoAAAA=" alt="" class="custumers-star" />
+            </li>
+            <li class="customers-starlist-item">
+              <img src="data:image/webp;base64,UklGRjABAABXRUJQVlA4WAoAAAAQAAAAFAAAEwAAQUxQSJsAAAABgEhbe13pIPwIH0IRgnARglCDW4PGoDHoGKQGHYO/BkGYZx4IETEBtE3M9GoT4pW2CSWGOiaHEobyDq8yoOACq1H/rbfXr+czAizX8/XlZec+ZHSbtmryN4OrL6ByWtfu4m9ytaxcxv/po5VO2uFq5bVjS614dJQAhACodnwZKn674FEj3Pb2DaIfyrGxFj8FoOTlaCgHmsrLHwBWUDggbgAAAHACAJ0BKhUAFAAAAAAlpAFQVk5YFJOTzUp7cAAA/v/fRlwxyAcEaoGjbzlA1a4e1EUOgE8WjMbdyayXM5G6GqEK2fpk1J8/AMKmIM0eQgR6n/vyWvGmsghwWmfLgwLKQq2BDi7wWWLepzcYAAAA" alt="" class="custumers-star" />
+            </li>
+            <li class="customers-starlist-item">
+              <img src="data:image/webp;base64,UklGRjABAABXRUJQVlA4WAoAAAAQAAAAFAAAEwAAQUxQSJsAAAABgEhbe13pIPwIH0IRgnARglCDW4PGoDHoGKQGHYO/BkGYZx4IETEBtE3M9GoT4pW2CSWGOiaHEobyDq8yoOACq1H/rbfXr+czAizX8/XlZec+ZHSbtmryN4OrL6ByWtfu4m9ytaxcxv/po5VO2uFq5bVjS614dJQAhACodnwZKn674FEj3Pb2DaIfyrGxFj8FoOTlaCgHmsrLHwBWUDggbgAAAHACAJ0BKhUAFAAAAAAlpAFQVk5YFJOTzUp7cAAA/v/fRlwxyAcEaoGjbzlA1a4e1EUOgE8WjMbdyayXM5G6GqEK2fpk1J8/AMKmIM0eQgR6n/vyWvGmsghwWmfLgwLKQq2BDi7wWWLepzcYAAAA" alt="" class="custumers-star" />
+            </li>
+          </ul>
+          <p class="customers-text">
+            "The range of organic snacks is fantastic! Perfect for my kids,
+            who love them and I feel good about giving them healthy options."
+          </p>
+          <div class="customers-content">
+            <img src="/vegetables-shop/assets/david-Dl6nl__w.webp" alt="" class="customers-photo" />
+            <p class="customers-name">David Brown</p>
+          </div>
+        </li>
+        <li class="customers-item">
+          <ul class="customers-stars">
+            <li class="customers-starlist-item">
+              <img src="data:image/webp;base64,UklGRswAAABXRUJQVlA4WAoAAAAQAAAAFAAAEwAAQUxQSHkAAAABcE5bW2Y9CCG8CIMQSgghZHAzmAwGoWsQwovwIjw/3r4QImICsA6Cm2rhQiLLhU7amZBkPGquH0hUxySzPNS4r/2HwYsWRM/0AaSfqMDXvX/AvO58WMedvFF23o2+Yxv0OhxlEUlaAZKSTItMfgIAUsl3IS1iKe1xAFZQOCAsAAAA8AIAnQEqFQAUAD6RQpxKJaOioagIALASCWkAAD36cwAA/viyFI7vggoAAAA=" alt="" class="custumers-star" />
+            </li>
+            <li class="customers-starlist-item">
+              <img src="data:image/webp;base64,UklGRswAAABXRUJQVlA4WAoAAAAQAAAAFAAAEwAAQUxQSHkAAAABcE5bW2Y9CCG8CIMQSgghZHAzmAwGoWsQwovwIjw/3r4QImICsA6Cm2rhQiLLhU7amZBkPGquH0hUxySzPNS4r/2HwYsWRM/0AaSfqMDXvX/AvO58WMedvFF23o2+Yxv0OhxlEUlaAZKSTItMfgIAUsl3IS1iKe1xAFZQOCAsAAAA8AIAnQEqFQAUAD6RQpxKJaOioagIALASCWkAAD36cwAA/viyFI7vggoAAAA=" alt="" class="custumers-star" />
+            </li>
+            <li class="customers-starlist-item">
+              <img src="data:image/webp;base64,UklGRswAAABXRUJQVlA4WAoAAAAQAAAAFAAAEwAAQUxQSHkAAAABcE5bW2Y9CCG8CIMQSgghZHAzmAwGoWsQwovwIjw/3r4QImICsA6Cm2rhQiLLhU7amZBkPGquH0hUxySzPNS4r/2HwYsWRM/0AaSfqMDXvX/AvO58WMedvFF23o2+Yxv0OhxlEUlaAZKSTItMfgIAUsl3IS1iKe1xAFZQOCAsAAAA8AIAnQEqFQAUAD6RQpxKJaOioagIALASCWkAAD36cwAA/viyFI7vggoAAAA=" alt="" class="custumers-star" />
+            </li>
+            <li class="customers-starlist-item">
+              <img src="data:image/webp;base64,UklGRswAAABXRUJQVlA4WAoAAAAQAAAAFAAAEwAAQUxQSHkAAAABcE5bW2Y9CCG8CIMQSgghZHAzmAwGoWsQwovwIjw/3r4QImICsA6Cm2rhQiLLhU7amZBkPGquH0hUxySzPNS4r/2HwYsWRM/0AaSfqMDXvX/AvO58WMedvFF23o2+Yxv0OhxlEUlaAZKSTItMfgIAUsl3IS1iKe1xAFZQOCAsAAAA8AIAnQEqFQAUAD6RQpxKJaOioagIALASCWkAAD36cwAA/viyFI7vggoAAAA=" alt="" class="custumers-star" />
+            </li>
+            <li class="customers-starlist-item">
+              <img src="data:image/webp;base64,UklGRjABAABXRUJQVlA4WAoAAAAQAAAAFAAAEwAAQUxQSJsAAAABgEhbe13pIPwIH0IRgnARglCDW4PGoDHoGKQGHYO/BkGYZx4IETEBtE3M9GoT4pW2CSWGOiaHEobyDq8yoOACq1H/rbfXr+czAizX8/XlZec+ZHSbtmryN4OrL6ByWtfu4m9ytaxcxv/po5VO2uFq5bVjS614dJQAhACodnwZKn674FEj3Pb2DaIfyrGxFj8FoOTlaCgHmsrLHwBWUDggbgAAAHACAJ0BKhUAFAAAAAAlpAFQVk5YFJOTzUp7cAAA/v/fRlwxyAcEaoGjbzlA1a4e1EUOgE8WjMbdyayXM5G6GqEK2fpk1J8/AMKmIM0eQgR6n/vyWvGmsghwWmfLgwLKQq2BDi7wWWLepzcYAAAA" alt="" class="custumers-star" />
+            </li>
+          </ul>
+          <p class="customers-text">
+            "I appreciate that they source local ingredients. It makes me feel
+            connected to the community!"
+          </p>
+          <div class="customers-content">
+            <img src="/vegetables-shop/assets/jesikka-CU84cL2R.webp" alt="" class="customers-photo" />
+            <p class="customers-name">Jessica Wilson</p>
+          </div>
+        </li>
+        <li class="customers-item">
+          <ul class="customers-stars">
+            <li class="customers-starlist-item">
+              <img src="data:image/webp;base64,UklGRswAAABXRUJQVlA4WAoAAAAQAAAAFAAAEwAAQUxQSHkAAAABcE5bW2Y9CCG8CIMQSgghZHAzmAwGoWsQwovwIjw/3r4QImICsA6Cm2rhQiLLhU7amZBkPGquH0hUxySzPNS4r/2HwYsWRM/0AaSfqMDXvX/AvO58WMedvFF23o2+Yxv0OhxlEUlaAZKSTItMfgIAUsl3IS1iKe1xAFZQOCAsAAAA8AIAnQEqFQAUAD6RQpxKJaOioagIALASCWkAAD36cwAA/viyFI7vggoAAAA=" alt="" class="custumers-star" />
+            </li>
+            <li class="customers-starlist-item">
+              <img src="data:image/webp;base64,UklGRswAAABXRUJQVlA4WAoAAAAQAAAAFAAAEwAAQUxQSHkAAAABcE5bW2Y9CCG8CIMQSgghZHAzmAwGoWsQwovwIjw/3r4QImICsA6Cm2rhQiLLhU7amZBkPGquH0hUxySzPNS4r/2HwYsWRM/0AaSfqMDXvX/AvO58WMedvFF23o2+Yxv0OhxlEUlaAZKSTItMfgIAUsl3IS1iKe1xAFZQOCAsAAAA8AIAnQEqFQAUAD6RQpxKJaOioagIALASCWkAAD36cwAA/viyFI7vggoAAAA=" alt="" class="custumers-star" />
+            </li>
+            <li class="customers-starlist-item">
+              <img src="data:image/webp;base64,UklGRswAAABXRUJQVlA4WAoAAAAQAAAAFAAAEwAAQUxQSHkAAAABcE5bW2Y9CCG8CIMQSgghZHAzmAwGoWsQwovwIjw/3r4QImICsA6Cm2rhQiLLhU7amZBkPGquH0hUxySzPNS4r/2HwYsWRM/0AaSfqMDXvX/AvO58WMedvFF23o2+Yxv0OhxlEUlaAZKSTItMfgIAUsl3IS1iKe1xAFZQOCAsAAAA8AIAnQEqFQAUAD6RQpxKJaOioagIALASCWkAAD36cwAA/viyFI7vggoAAAA=" alt="" class="custumers-star" />
+            </li>
+            <li class="customers-starlist-item">
+              <img src="data:image/webp;base64,UklGRjABAABXRUJQVlA4WAoAAAAQAAAAFAAAEwAAQUxQSJsAAAABgEhbe13pIPwIH0IRgnARglCDW4PGoDHoGKQGHYO/BkGYZx4IETEBtE3M9GoT4pW2CSWGOiaHEobyDq8yoOACq1H/rbfXr+czAizX8/XlZec+ZHSbtmryN4OrL6ByWtfu4m9ytaxcxv/po5VO2uFq5bVjS614dJQAhACodnwZKn674FEj3Pb2DaIfyrGxFj8FoOTlaCgHmsrLHwBWUDggbgAAAHACAJ0BKhUAFAAAAAAlpAFQVk5YFJOTzUp7cAAA/v/fRlwxyAcEaoGjbzlA1a4e1EUOgE8WjMbdyayXM5G6GqEK2fpk1J8/AMKmIM0eQgR6n/vyWvGmsghwWmfLgwLKQq2BDi7wWWLepzcYAAAA" alt="" class="custumers-star" />
+            </li>
+            <li class="customers-starlist-item">
+              <img src="data:image/webp;base64,UklGRjABAABXRUJQVlA4WAoAAAAQAAAAFAAAEwAAQUxQSJsAAAABgEhbe13pIPwIH0IRgnARglCDW4PGoDHoGKQGHYO/BkGYZx4IETEBtE3M9GoT4pW2CSWGOiaHEobyDq8yoOACq1H/rbfXr+czAizX8/XlZec+ZHSbtmryN4OrL6ByWtfu4m9ytaxcxv/po5VO2uFq5bVjS614dJQAhACodnwZKn674FEj3Pb2DaIfyrGxFj8FoOTlaCgHmsrLHwBWUDggbgAAAHACAJ0BKhUAFAAAAAAlpAFQVk5YFJOTzUp7cAAA/v/fRlwxyAcEaoGjbzlA1a4e1EUOgE8WjMbdyayXM5G6GqEK2fpk1J8/AMKmIM0eQgR6n/vyWvGmsghwWmfLgwLKQq2BDi7wWWLepzcYAAAA" alt="" class="custumers-star" />
+            </li>
+          </ul>
+          <p class="customers-text">
+            "The prices are fair for the quality of food. I never feel guilty
+            about spending a little more here."
+          </p>
+          <div class="customers-content">
+            <img src="/vegetables-shop/assets/andrew-CXDQMxyk.webp" alt="" class="customers-photo" />
+            <p class="customers-name">Andrew Lee</p>
+          </div>
+        </li>
+        <li class="customers-item">
+          <ul class="customers-stars">
+            <li class="customers-starlist-item">
+              <img src="data:image/webp;base64,UklGRswAAABXRUJQVlA4WAoAAAAQAAAAFAAAEwAAQUxQSHkAAAABcE5bW2Y9CCG8CIMQSgghZHAzmAwGoWsQwovwIjw/3r4QImICsA6Cm2rhQiLLhU7amZBkPGquH0hUxySzPNS4r/2HwYsWRM/0AaSfqMDXvX/AvO58WMedvFF23o2+Yxv0OhxlEUlaAZKSTItMfgIAUsl3IS1iKe1xAFZQOCAsAAAA8AIAnQEqFQAUAD6RQpxKJaOioagIALASCWkAAD36cwAA/viyFI7vggoAAAA=" alt="" class="custumers-star" />
+            </li>
+            <li class="customers-starlist-item">
+              <img src="data:image/webp;base64,UklGRswAAABXRUJQVlA4WAoAAAAQAAAAFAAAEwAAQUxQSHkAAAABcE5bW2Y9CCG8CIMQSgghZHAzmAwGoWsQwovwIjw/3r4QImICsA6Cm2rhQiLLhU7amZBkPGquH0hUxySzPNS4r/2HwYsWRM/0AaSfqMDXvX/AvO58WMedvFF23o2+Yxv0OhxlEUlaAZKSTItMfgIAUsl3IS1iKe1xAFZQOCAsAAAA8AIAnQEqFQAUAD6RQpxKJaOioagIALASCWkAAD36cwAA/viyFI7vggoAAAA=" alt="" class="custumers-star" />
+            </li>
+            <li class="customers-starlist-item">
+              <img src="data:image/webp;base64,UklGRjABAABXRUJQVlA4WAoAAAAQAAAAFAAAEwAAQUxQSJsAAAABgEhbe13pIPwIH0IRgnARglCDW4PGoDHoGKQGHYO/BkGYZx4IETEBtE3M9GoT4pW2CSWGOiaHEobyDq8yoOACq1H/rbfXr+czAizX8/XlZec+ZHSbtmryN4OrL6ByWtfu4m9ytaxcxv/po5VO2uFq5bVjS614dJQAhACodnwZKn674FEj3Pb2DaIfyrGxFj8FoOTlaCgHmsrLHwBWUDggbgAAAHACAJ0BKhUAFAAAAAAlpAFQVk5YFJOTzUp7cAAA/v/fRlwxyAcEaoGjbzlA1a4e1EUOgE8WjMbdyayXM5G6GqEK2fpk1J8/AMKmIM0eQgR6n/vyWvGmsghwWmfLgwLKQq2BDi7wWWLepzcYAAAA" alt="" class="custumers-star" />
+            </li>
+            <li class="customers-starlist-item">
+              <img src="data:image/webp;base64,UklGRjABAABXRUJQVlA4WAoAAAAQAAAAFAAAEwAAQUxQSJsAAAABgEhbe13pIPwIH0IRgnARglCDW4PGoDHoGKQGHYO/BkGYZx4IETEBtE3M9GoT4pW2CSWGOiaHEobyDq8yoOACq1H/rbfXr+czAizX8/XlZec+ZHSbtmryN4OrL6ByWtfu4m9ytaxcxv/po5VO2uFq5bVjS614dJQAhACodnwZKn674FEj3Pb2DaIfyrGxFj8FoOTlaCgHmsrLHwBWUDggbgAAAHACAJ0BKhUAFAAAAAAlpAFQVk5YFJOTzUp7cAAA/v/fRlwxyAcEaoGjbzlA1a4e1EUOgE8WjMbdyayXM5G6GqEK2fpk1J8/AMKmIM0eQgR6n/vyWvGmsghwWmfLgwLKQq2BDi7wWWLepzcYAAAA" alt="" class="custumers-star" />
+            </li>
+            <li class="customers-starlist-item">
+              <img src="data:image/webp;base64,UklGRjABAABXRUJQVlA4WAoAAAAQAAAAFAAAEwAAQUxQSJsAAAABgEhbe13pIPwIH0IRgnARglCDW4PGoDHoGKQGHYO/BkGYZx4IETEBtE3M9GoT4pW2CSWGOiaHEobyDq8yoOACq1H/rbfXr+czAizX8/XlZec+ZHSbtmryN4OrL6ByWtfu4m9ytaxcxv/po5VO2uFq5bVjS614dJQAhACodnwZKn674FEj3Pb2DaIfyrGxFj8FoOTlaCgHmsrLHwBWUDggbgAAAHACAJ0BKhUAFAAAAAAlpAFQVk5YFJOTzUp7cAAA/v/fRlwxyAcEaoGjbzlA1a4e1EUOgE8WjMbdyayXM5G6GqEK2fpk1J8/AMKmIM0eQgR6n/vyWvGmsghwWmfLgwLKQq2BDi7wWWLepzcYAAAA" alt="" class="custumers-star" />
+            </li>
+          </ul>
+          <p class="customers-text">
+            "Their eco-friendly packaging is a big plus for me. It's nice to
+            support a business that cares about the environment!"
+          </p>
+          <div class="customers-content">
+            <img src="/vegetables-shop/assets/laura-2KyMg6FH.webp" alt="" class="customers-photo" />
+            <p class="customers-name">Laura Kim</p>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </section>
+  <section id="faqs" class="faqs">
+  <div class="container faqs-section">
+    <div class="faqs-box">
+      <h5 class="faqs-title">FAQs</h5>
+      <p class="faqs-text">
+        Here are some common questions about our organic products and
+        services.
+      </p>
+    </div>
+
+    <ul class="faqs-list-text">
+      <li class="faqs-list">
+        <div class="faqs-content">
+          <h6 class="faqs-subtitle">Are all products organic?</h6>
+          <button class="faqs-button">
+            <img src="data:image/webp;base64,UklGRrgAAABXRUJQVlA4WAoAAAAQAAAAIAAAIAAAQUxQSFgAAAABV2AQYNpoETSDQrjJIyIELK7/wCi2rTaPzhIpSEACEtCBAxCAg1SX/e2SbUT/DSZt03bzF/xRk6WZKkved8fsc2X6ckAEDojACfGdeHlhHwkNtw6Jjy8AVlA4IDoAAADwAwCdASohACEAPo04lkelIyIhMcgAoBGJaQAAZ1WI238IolP4fBKAAP78pdR/4oAOE///yTgAAAAA" alt="" />
+          </button>
+        </div>
+        <p class="faqs-article">
+          Yes, all our products are certified organic. We prioritize quality
+          and sustainability in our sourcing. You can trust that everything
+          you buy from us meets strict organic standards.
+        </p>
+      </li>
+
+      <li class="faqs-list">
+        <div class="faqs-content">
+          <h6 class="faqs-text">Where do you source?</h6>
+          <button class="faqs-button">
+            <img src="data:image/webp;base64,UklGRrgAAABXRUJQVlA4WAoAAAAQAAAAIAAAIAAAQUxQSFgAAAABV2AQYNpoETSDQrjJIyIELK7/wCi2rTaPzhIpSEACEtCBAxCAg1SX/e2SbUT/DSZt03bzF/xRk6WZKkved8fsc2X6ckAEDojACfGdeHlhHwkNtw6Jjy8AVlA4IDoAAADwAwCdASohACEAPo04lkelIyIhMcgAoBGJaQAAZ1WI238IolP4fBKAAP78pdR/4oAOE///yTgAAAAA" alt="" />
+          </button>
+        </div>
+        <p class="faqs-article">
+          We source our products from local farmers and trusted suppliers.
+          This ensures freshness and supports our community. Our commitment
+          is to ethical and sustainable practices.
+        </p>
+      </li>
+      <li class="faqs-list">
+        <div class="faqs-content">
+          <h6 class="faqs-text">What areas do you deliver?</h6>
+          <button class="faqs-button">
+            <img src="data:image/webp;base64,UklGRrgAAABXRUJQVlA4WAoAAAAQAAAAIAAAIAAAQUxQSFgAAAABV2AQYNpoETSDQrjJIyIELK7/wCi2rTaPzhIpSEACEtCBAxCAg1SX/e2SbUT/DSZt03bzF/xRk6WZKkved8fsc2X6ckAEDojACfGdeHlhHwkNtw6Jjy8AVlA4IDoAAADwAwCdASohACEAPo04lkelIyIhMcgAoBGJaQAAZ1WI238IolP4fBKAAP78pdR/4oAOE///yTgAAAAA" alt="" />
+          </button>
+        </div>
+
+        <p class="faqs-article">
+          We currently deliver to several neighborhoods in the region. Check
+          our delivery area on the website for specifics. If you're unsure,
+          feel free to reach out!
+        </p>
+      </li>
+      <li class="faqs-list">
+        <div class="faqs-content">
+          <h6 class="faqs-text">Do you offer subscriptions?</h6>
+          <button class="faqs-button">
+            <img src="data:image/webp;base64,UklGRrgAAABXRUJQVlA4WAoAAAAQAAAAIAAAIAAAQUxQSFgAAAABV2AQYNpoETSDQrjJIyIELK7/wCi2rTaPzhIpSEACEtCBAxCAg1SX/e2SbUT/DSZt03bzF/xRk6WZKkved8fsc2X6ckAEDojACfGdeHlhHwkNtw6Jjy8AVlA4IDoAAADwAwCdASohACEAPo04lkelIyIhMcgAoBGJaQAAZ1WI238IolP4fBKAAP78pdR/4oAOE///yTgAAAAA" alt="" />
+          </button>
+        </div>
+
+        <p class="faqs-article">
+          Yes, we offer subscription plans for regular deliveries. This is a
+          convenient way to ensure you never run out of your favorite
+          organic products. You can customize your subscription based on
+          your needs.
+        </p>
+      </li>
+      <li class="faqs-list">
+        <div class="faqs-content">
+          <h6 class="faqs-text">How can I contact?</h6>
+          <button class="faqs-button">
+            <img src="data:image/webp;base64,UklGRrgAAABXRUJQVlA4WAoAAAAQAAAAIAAAIAAAQUxQSFgAAAABV2AQYNpoETSDQrjJIyIELK7/wCi2rTaPzhIpSEACEtCBAxCAg1SX/e2SbUT/DSZt03bzF/xRk6WZKkved8fsc2X6ckAEDojACfGdeHlhHwkNtw6Jjy8AVlA4IDoAAADwAwCdASohACEAPo04lkelIyIhMcgAoBGJaQAAZ1WI238IolP4fBKAAP78pdR/4oAOE///yTgAAAAA" alt="" />
+          </button>
+        </div>
+
+        <p class="faqs-article">
+          You can reach us via phone or email for any inquiries. Our
+          customer service team is here to help. We aim to respond to all
+          questions promptly.
+        </p>
+      </li>
+    </ul>
+  </div>
+</section>
+  <section id="touch" class="touch">
+  <div class="container touch-section">
+    <div class="touch-box">
+    <p class="touch-contacts">Contacts</p>
+    <h6 class="touch-title">Get in Touch</h6>
+    <p class="touch-subtitle">We'd love to hear from you anytime!</p>
+    <ul class="touch-list">
+      <li class="touch-item">
+        <a href="mailto:hello@organicstore.com" class="touch-email">hello@organicstore.com</a>
+      </li>
+      <li class="touch-item">
+
+        <a href="tel:+1 (555) 329-1024" class="touch-phone">+1 (555) 329-1024</a>
+      </li>
+    </ul>
+    <form class="touch-form">
+      <label for="name" class="touch-label_name">Name</label>
+      <input type="text" id="name" placeholder="Sarah" class="touch-input_name">
+
+      <label for="email" class="touch-label_email">Email</label>
+      <input type="email" id="email" placeholder="hello@organic.com" class="touch-input_email">
+
+
+      <label for="message" class="touch-label_message">Message</label><br />
+      <textarea id="message" placeholder="Type your message..." class="touch-input_message"></textarea>
+
+      <input type="submit" class="touch-submit" value="Submit" />
+    </form>
+  </div>
+    <img src="/vegetables-shop/assets/family-ohB3G3jW.webp" alt="family" class="touch-image_family" />
+  </div>
+</section>
+  <section id="footer" class="footer">
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-box">
+        <nav class="footer-nav">
+          <img src="data:image/webp;base64,UklGRqYFAABXRUJQVlA4WAoAAAAQAAAAjgAAPAAAQUxQSAUFAAABsFXbdhBp15EQCUdCJEQCDr5IwAFx0DgAB1UOwAHtIDiIhPVwkgB1u/77GhETIHdqHFMM8hdrjDEG+Ww3Zapl0b8nAuyf9a/QO32/iYvLt5uwZU1pzoblj9EYYxw+SLGzExsLwPi3fPxqkjS9Ka7LheBqPsbgLukQY/DXNMZBb3IhxqBPKECWzgQwisgKZAkboGYs2EVPYKm4qVDNU20FkOHALloJALEWNqpbvG80sceZrVEmrFlo5tLyhc7sOiaaWS/90Plz29tojxwArtZUkYmLRjP2PA0/Hb3blYXu5a4DKNK9Gn9JscsQYu6IAC8nohkoriOnOL4Nvi8ClKQuZoDhphPIfbMJrRxVRGQ1o9itNZ/neYgNAL6VnYjIbMa+DGQVEdECbJ+S+rKTagF2qYZWrzehNYj1JnUFgCjVcd/33d1X+ta+IFUFSDUpfU79MJcLWnHXktHakweA69qMb7haMLFxdAyvQmeH1K+tRp6fTegqQJGG1L0ZL+lBvfxecE+UDwjm1RMB3o3ScGarORoZYB+Dirugd80A7jkpAKGl2cQGDTkBQmVqeICXWP8Zowk150MI7qZkstb0AMhyLZkcRdxEYzCx8vMZzmy1Fchy94FdgmqYClZvcIVqpt5ajOczZAOYzASw3KbZdCe5QWINKKXmDEsYZqrDc1oA8jxvAFlvE819ZZRbZMi17M+azKZaTHxOfKGzeHnQpZ5d5SaROO/7OjopDZkb2Z9A+gDR3Dq8PKvx/Vs49xSkPazrnPqaDiAZGd6/5/kenQwppUFEhpRScrWUUgoioiml5Csi8f1LOdcg/+vLsW1TLZqh8sU3gNH4bPTbeUPelgOb5OtH017lP2DIrZLkv+Gw/p7n+R6d/P8dxpTSGFpxWZble7mpUM+Tq6wAf4vzMS2vI9vtKV/ozfoXhfmge39IC/3Z/TVuKlx9agU4goqPGWD8W9xUuL484wCyE6tm+1NCprtslfSMN4vUNyD3hGXbtqQ9bnrlvM2hoTHG6CTMr+016h0T/VlDZfiArRFiDKHlNupTw/3Q3LQSAfyL+s+1ifpe2d2/UvHPOMNYa1cO2mNFM53Fd2Tay5WR+i4FSO6HapGHN8MxBneptzgRcRl77gWgaMuWCmOf0hw95KAH9fdTvhh7LMOFOagfC0AUkR+AXUUkAWwdRxDxL1Nc19oKI7uGQjM+JT43gLJoxyI2mVlEAbJUZ4DQyE7sBhB7lLbbZhnP9/qu6WPi4m8LsrZ8Rc0iEk2suQK8G1Gqwcw9cyvLIOJExFd2+Ugd5r3G0ZJ6421cTQ4gN1xNCvDuOVqLuHF55UI9fkZ1OAzhps1IcwVoSPME9h6aWX2hN8tHv8z8Ce8PyhoK3emxmFJKrcEsN61GGwdwNLTmAN7XDv1Hf5bHV4DQiCbdFE2qKcDSGGvRjD3FHG7kYnwumqwVl81wkytAUeMOo42sRrPxPRuQdeLiLM+7DJCnEIapAGS5SUaAHL3GA2CRBjl6P2aAXXoTZBW1zjcO+cRguv1tstKdtaNXuwJFh9drsUftcB8hQ+4qQe6TuedQaZWOKP1bmri4O/lQXUujJCdPSMy1kpx0DGtt99Kv20R/GeWTw5hSGoM0napqQ1XV1URCWtc5OKlXgmic1zHIRXeQ9q5F5QtWVO59kUR0/jVlH518xSciL6mrqnzNJ/TtGl/1iS9dCf8hnKqq+wsAAFZQOCB6AAAAkAcAnQEqjwA9AAAAACWkDGAP0A/gAOi34AfQAGzBfbVYzE1QUbjJtGZy5vURn7VFyIW++5JT0FW4QpN/ELkyS0gwxqTAAP7Yn/vnFYlee//fNwCv/+l0+v//pdOC//6XTHH9if984rMv//d2gUv//S6au//6XTAAAAA=" alt="logo" class="footer-logo" />
+          <ul class="footer-list">
+            <li class="footer-item">
+              <a href="#" class="footer-text">Home</a>
+            </li>
+            <li class="footer-item">
+              <a href="#" class="footer-text">Mission</a>
+            </li>
+            <li class="footer-item">
+              <a href="#" class="footer-text">Benefits</a>
+            </li>
+            <li class="footer-item">
+              <a href="#" class="footer-text">Assortment</a>
+            </li>
+            <li class="footer-item">
+              <a href="#" class="footer-text">Feedbacks</a>
+            </li>
+            <li class="footer-item">
+              <a href="#" class="footer-text">FAQ</a>
+            </li>
+            <li class="footer-item">
+              <a href="#" class="footer-text">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+        <ul class="footer-social">
+          <li class="footer-item">
+            <a href="" class="footer-link">
+              <img
+                src="data:image/webp;base64,UklGRtAAAABXRUJQVlA4WAoAAAAQAAAAFAAAFAAAQUxQSI0AAAABcBDbdtRcCV9CJCAhEiohEnBAHICD4oA6oA6og+AgEl6XLNRBREwARX9PWccWaPVJ1RRqk5rn0qTO+WdQOXmDRdIIpIoDiJKy4VV+AD5skjSyViIMKu/sLaGSOa+QlZwzMOf2Nqol1o788+RWkCIElUcsX+Ag9EWAteeguLYdViLmhsWou/j6ORfHPwEAVlA4IBwAAABwAQCdASoVABUAAAAAJaQAA8lWAAD+/97c8AAA"
+                alt="facebook"
+                class="footer-image"
+              />
+            </a>
+          </li>
+          <li class="footer-item">
+            <a href="" class="footer-link">
+              <img
+                src="data:image/webp;base64,UklGRtgAAABXRUJQVlA4WAoAAAAQAAAAEgAAEgAAQUxQSJYAAAABgBXZdtjmQhCEB8EQHgRDEAQziBmkDCIGLgOZgcpAZiAI50PVayFExARIXgfLUbMkveC5lz/wkja6K2idrG82BT/ZRtMzNPtxuIymSnr69AG4bEsq2C9v7rwXqrQyuiQVPJA5JucrlP+2UafCHtDF5XuhK5IKQLOQ5Ofpmiup4tPaRpfTLZIaWTqhrtugSFK+CbZD/wxWUDggHAAAAHABAJ0BKhMAEwAAAAAlpAADyVYAAP7/3tzwAAA="
+                alt="instagram"
+                class="footer-image"
+              />
+            </a>
+          </li>
+          <li class="footer-item">
+            <a href="" class="footer-link">
+              <img
+                src="data:image/webp;base64,UklGRtwAAABXRUJQVlA4WAoAAAAQAAAAEgAAEAAAQUxQSJUAAAABgEjbep3pInwIH0IRgjAGHYQYtAatwR+DIgQhCB/Ch3Dm0RdCREzADpCuU092SZ3eMuyfB4ckeYR/85HkwbB/KgztVNkgXOeVTYPpIFzXjdkzSddNi/QCX7rtGbay3FPlUKfc61At0u9s5KBMjBsLTB7hle1igSoVhhrzyQyrJFU2i3RJU7LqtHF0wuRB07kFwEevAgBWUDggIAAAAHABAJ0BKhMAEQAAAAAlpAADzMYAAP7/3t0rP/78F0AA"
+                alt="x-or-twitter"
+                class="footer-image"
+              />
+            </a>
+          </li>
+          <li class="footer-item">
+            <a href="" class="footer-link">
+              <img src="data:image/webp;base64,UklGRqgAAABXRUJQVlA4WAoAAAAQAAAAEgAAEgAAQUxQSGUAAAABcBDZbtw8CIYQaIEQBjGDloHEoIYgBoUgMxCE3HcARMQE9DEc/VCH46kOQ9EDTR0K5EM/6A4N0sehMPPBzEPVNwzUoUtAPgAJiH2NDy3ovjwM5Qx7gRDxEPkPQ4j4yvGUj305FQBWUDggHAAAAHABAJ0BKhMAEwAAAAAlpAADyVYAAP7/3tzwAAA=" alt="linkedin" class="footer-image" />
+            </a>
+          </li>
+          <li class="footer-item">
+            <a href="" class="footer-link">
+              <img
+                src="data:image/webp;base64,UklGRr4AAABXRUJQVlA4WAoAAAAQAAAAGAAAGAAAQUxQSGoAAAABcFbbWhV9EYhwIxCBKEaggRE0AhFogA2MgA2IoM58r3n+jogJoH8wAIgpRQCq3E/jPnPT6ZiZ6tGY5jGYQ0hFcRpA6FKwEE2Dgym2kw+GsJwy6ZZxWqqg3pnVozLoDokh5LVsylJypN8PVlA4IC4AAADQAQCdASoZABkAAAAAJaQAA9+x1yvKAAD+/97dkMy///983FN9d5///982+AAA"
+                alt="youtube"
+                class="footer-image"
+              />
+            </a>
+          </li>
+        </ul>
+      </div>
+      <p class="footer-company">© 2025 Organic Shop. All rights reserved.</p>
+    </div>
+  </footer>
+</section>
+
+
+</body>
+
+</html>
