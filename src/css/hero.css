@@ -1,3 +1,21 @@
+.container {
+    width: 1312px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hero {
+    background-image: linear-gradient(rgba(47, 48, 58, 0.5),
+            rgba(47, 48, 58, 0.5)),
+        url("../image/gradient-food.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    padding-top: 332px;
+    padding-bottom: 336px;
+
+}
+
 .hero-title {
     width: 646px;
     height: 134px;
@@ -9,29 +27,6 @@
     color: #FFFFFF;
 }
 
-.hero {
-    background-image: linear-gradient(to right,
-            rgba(47, 48, 58, 0.5),
-            rgba(47, 48, 58, 0.5)),
-        url("../image/gradient-food.webp");
-
-    height: 900px;
-    padding-right: 64px;
-    padding-left: 64px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-
-
-}
-
-.hero-overlay {
-    padding-left: 64px;
-    padding-top: 326px;
-    padding-bottom: 326px;
-
-}
-
 .hero-description {
     font-family: 'Public Sans', sans-serif;
     font-weight: 400;
@@ -39,21 +34,29 @@
     line-height: 150%;
     letter-spacing: 0;
     color: #FFFFFF;
+    margin-top: 8px;
 }
 
 .hero-button {
     width: 199px;
-    height: 36px;
     border-radius: 6px;
     border: 1px solid #FFFFFF;
     justify-content: center;
     padding: 6px 32px;
     display: flex;
     align-items: center;
-    gap: 8px;
     box-sizing: border-box;
     margin-top: 16px;
-    background-color: #fff;
+    border-radius: 6px;
+    border: 1px solid #FFF;
+    background-color: #FFF;
+}
+
+.hero-button:hover {
+    border: 1px solid #1A5901;
+    background: #1A5901;
+    box-shadow: 2px 7px 27px -4px rgba(0, 0, 0, 0.35) inset;
+    color: #FFF;
 }
 
 .hero-button-text {
