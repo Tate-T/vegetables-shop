@@ -1,9 +1,3 @@
-.container {
-    width: 1312px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
 .hero {
     background-image: linear-gradient(rgba(47, 48, 58, 0.5),
             rgba(47, 48, 58, 0.5)),
