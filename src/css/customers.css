@@ -27,9 +27,10 @@
 }
 
 .customers-list {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 24px;
+ display: flex;
+ flex-wrap: wrap;
+   gap: 24px;
+
 }
 
 .customers-item {
@@ -43,6 +44,8 @@
     align-items: flex-start;
     align-self: stretch;
     border: 1px solid rgba(1, 4, 0, 0.15);
+     flex-shrink: 0;
+  flex-basis: calc((100% - (24px * 4)) / 4);
 }
 
 .customers-stars {
