@@ -14,3 +14,18 @@ button {
     border: none;
     cursor: pointer;
 }
+* {
+    box-sizing: border-box;
+}
+
+li {
+    margin: 0;
+}
+
+img {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+
+}
