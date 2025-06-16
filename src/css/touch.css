@@ -181,3 +181,9 @@
 .touch-image_family {
   width: 644px;
 }
+
+.touch-submit:hover {
+  color: #000000;
+  background: #E8EEE5;
+  border: 1px solid rgba(1, 4, 0, 0.15);
+}
