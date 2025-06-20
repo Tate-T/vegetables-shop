@@ -45,7 +45,7 @@
 }
 
 .touch-email {
-  color: var(--Color-Scheme-2-Text, #010400);
+  color:  #010400;
   font-family: "Public Sans";
   font-size: 18px;
   font-style: normal;
@@ -84,7 +84,6 @@
 .touch-phone {
   position: relative;
   padding-left: 28px;
-  /* простір для іконки */
   color: var #010400;
   font-family: "Public Sans", sans-serif;
   font-size: 16px;
